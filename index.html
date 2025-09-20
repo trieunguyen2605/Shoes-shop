@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoes shop </title>
+    <link rel="stylesheet" href="/asset/css/header.css">
+    <link rel="stylesheet" href="/asset/css/main.css">
+    <link rel="stylesheet" href="/asset/css/footer.css">
+</head>
+<body>
+
+    <!-- lưu í : trong file này không viết gì nha - vì đây là file kết nối thui  ( nếu cần thì nên hỏi ý kiến mọi người ) -->
+
+    <!-- Nguyễn Văn Khải -->
+    <div id="header"></div>
+    <!-- Nguyễn Văn Triệu -->
+    <div id="main"></div>
+    <!-- Bé iu <3  -->
+    <div id="footer"></div>
+
+    <!-- js kết nối các file html với nhau  -->
+    <script>
+        async function loadHTML(id, file) {
+            const res = await fetch(file);
+            document.getElementById(id).innerHTML = await res.text();
+        }
+
+        loadHTML("header", "header.html"); 
+        loadHTML("main", "main.html");
+        loadHTML("footer", "footer.html");
+    </script>
+</body>
+</html>
