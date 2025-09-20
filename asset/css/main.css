@@ -1,0 +1,12 @@
+#main{
+    margin-top:calc( var(--header-height) + 1rem);
+}
+.m-h1{
+    color: red;
+}
+#main{
+    width: 1210px;
+    height: 1000px;
+    background: green;
+    /* margin-top: 10px; */
+}

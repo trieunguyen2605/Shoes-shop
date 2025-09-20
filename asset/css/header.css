@@ -1,0 +1,6 @@
+#header{
+    height: var(--header-height);
+    background: var(--primary-color);
+    width: 80%;
+    position: fixed;
+}
