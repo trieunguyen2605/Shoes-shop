@@ -6,5 +6,5 @@
     /* margin-top: 10px; */
 }
 .m-h1{
-    color: red;
+    color: var(--text-color)
 }
