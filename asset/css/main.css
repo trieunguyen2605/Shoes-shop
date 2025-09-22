@@ -5,6 +5,14 @@
     background: green;
     /* margin-top: 10px; */
 }
-.m-h1{
-    color: var(--text-color)
+.mn-category{
+    background: rgb(249, 249, 249);
+}
+
+.mn-category__list{
+    padding: 0;
+}
+
+.mn-category__item{
+    list-style: none;
 }
