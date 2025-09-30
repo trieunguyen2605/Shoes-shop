@@ -1,18 +1,132 @@
 #main{
     margin-top:calc( var(--header-height) + 1rem);
-    width: 80%;
-    height: 1000px;
-    background: green;
+    width: 100%;
+    height:auto;
+    /* background: rgb(233, 203, 203); */
     /* margin-top: 10px; */
+    margin-bottom: 100px;
+}
+
+.mn-wrap{
+
+}
+
+.mn-img img{
+    height: 736px;
+    width: 100%;
+    background-size: cover  ;
+}
+.mn-product{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
 }
 .mn-category{
-    background: rgb(249, 249, 249);
+    display: flex;  
+    justify-content: space-around;
 }
 
-.mn-category__list{
-    padding: 0;
+.category-item{
+    /* width: 33.33333; */
+    height: 160px;
+    width: 346px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    border: 1px solid #f8f8f8;
+    box-shadow: 0 0 50px 10px rgb(251, 251, 251);
+    border-radius: 10px;
 }
 
-.mn-category__item{
-    list-style: none;
+.category-item:hover{
+    box-shadow: 0 0 30px 30px rgb(229, 228, 228);
+
+}
+.category-item_title{
+    font-size: 2.2rem;
+    padding-bottom: 16px;
+    color: var(--text-color);
+}
+
+.category-btn{
+    padding: 14px 30px;
+    font-size: 16px;
+    border-radius: 10px;
+    border:1px solid #cfcdcd;
+    background-color: #fff;
+}
+
+.category-btn:hover{
+    border: 1px solid red;
+    color: red;
+}
+
+/* sản phẩm  */
+.mn-product_wrap{
+
+}
+.mn-wrap-child{
+    
+}
+.mn-product_title{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 20px;
+    padding: 20px 0 ;
+}
+
+.mn-product_title h2 span{
+    /* padding: 0; */
+    color: red;
+}
+
+.mn-product_shoes{
+    /* padding-bottom: 20px; */
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mn-shoes_item{
+    /* width: 270px;
+    height: 380px; */
+    /* background-color: red; */
+    width: 25%;
+    height: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.shoes-item_link{
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.shoes-img{
+    margin-bottom: 10px;
+}
+.img-small{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8px;
+    /* box-sizing: border-box; */
+}
+
+.img-small img:hover{
+    border: 1px solid #000;
+}
+.mn-shoes_nd{
+    color: var(--text-color);
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.mn-shoes_price{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+    color: #000;
+    font-weight: 600;
 }

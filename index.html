@@ -39,7 +39,6 @@
             const res = await fetch(file);
             document.getElementById(id).innerHTML = await res.text();
         }
-
         loadHTML("header", "header.html"); 
         loadHTML("main", "main.html");
         loadHTML("footer", "footer.html");
