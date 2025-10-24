@@ -1,6 +1,11 @@
-#header{
-    height: var(--header-height);
-    background: var(--primary-color);
-    width: 80%;
-    position: fixed;
+#header {
+  height: var(--header-height);
+  background: var(--primary-color);
+  width: 80%;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+}
+.search {
+  display: flex;
 }
